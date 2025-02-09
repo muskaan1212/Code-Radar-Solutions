@@ -6,7 +6,7 @@ int main(){
         
         }
     else if(x==Z){
-        printf("You entered: Z")
+        printf("You entered: Z");
     }
     return 0;
 }
