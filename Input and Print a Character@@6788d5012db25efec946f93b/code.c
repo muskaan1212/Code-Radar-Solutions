@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+    char x;
     if(x==A){
         printf("You entered: A");
         
