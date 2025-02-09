@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char x;  // Declare a variable to store the input character
-    
-    // Ask the user for input
-    printf("Enter a single character: ");
+    char x;  
     
     // Take input using scanf
     scanf("%c", &x);  // Using "%c" to read a single character
