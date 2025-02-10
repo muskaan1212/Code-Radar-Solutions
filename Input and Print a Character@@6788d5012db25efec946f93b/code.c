@@ -2,12 +2,8 @@
 
 int main() {
     char x;  
-    
-    // Take input using scanf
-    scanf("%c", &x);  // Using "%c" to read a single character
-    
-    // Print the entered character
-    printf("You entered: %c\n", x);  // Using "%c" to print the character
+    scanf("%c", &x);  
+    printf("You entered: %c\n", x);  
     
     return 0;
 }
