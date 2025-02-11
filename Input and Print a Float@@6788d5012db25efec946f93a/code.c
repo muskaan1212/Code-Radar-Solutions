@@ -2,7 +2,8 @@
 int main{
 float=a;
 
-printf("enter a float");
+
 scanf("%f",&a);
+printf("enter a float=",a);
 return 0;
 }
