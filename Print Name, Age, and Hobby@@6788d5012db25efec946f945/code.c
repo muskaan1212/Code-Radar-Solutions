@@ -1,10 +1,19 @@
 #include <stdio.h>
-int main(){
-    char Name[50],char Hobby[50],int Age;
-    scanf("%s",&Name);
-    scanf("%d",&Age);
-    scanf("%s",&Hobby);
- printf("\nName: %s\nAge: %d\nHobby: %s\n", Name, Age, Hobby);
+
+int main() {
+    char name[50], hobby[50];
+    int age;
+
+    printf("Enter your name: ");
+    scanf("%s", name);  // Takes a single-word name
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Enter your hobby: ");
+    scanf("%s", hobby);  // Takes a single-word hobby
+
+    printf("\nName: %s\nAge: %d\nHobby: %s\n", name, age, hobby);
 
     return 0;
 }
