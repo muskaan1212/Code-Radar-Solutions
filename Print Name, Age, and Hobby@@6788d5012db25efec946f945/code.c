@@ -3,10 +3,7 @@
 int main() {
 char name[50], hobby[50];
 int age;
-scanf("%s", name);  
-scanf("%d", &age);
-scanf("%s", hobby);  
+scanf("%s %d %s", &name,&age,&hobby);  
 printf("\nName:%s\nAge:%d\nHobby:%s\n", name, age, hobby);
-
-    return 0;
+return 0;
 }
