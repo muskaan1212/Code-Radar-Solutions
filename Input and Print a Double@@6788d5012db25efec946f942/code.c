@@ -1,9 +1,9 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    double number;
-    scanf("%lf",&numbers);
-    printf("You entred: %lf\n",number);
+    double a;
+    scanf("%lf",&a);
+    printf("You entred: .2%lf\n",a);
     return 0;
     
 }
