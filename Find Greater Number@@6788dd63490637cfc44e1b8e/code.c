@@ -9,7 +9,7 @@ if (a > b) {
     } else if (b > a) {
         printf("%d ", b);
     } else {
-        printf("equal\n");
+        printf("0");
     }
 
     return 0;
