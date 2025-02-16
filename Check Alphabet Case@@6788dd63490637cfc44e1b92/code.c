@@ -7,7 +7,5 @@ int main(){
         printf("Uppercase");
     }else if(x==abcdefghijklmnopqrstuvwxyz){
         printf("Lowercase");
-    }else{
-        printf("Invalid");
     }
 }
