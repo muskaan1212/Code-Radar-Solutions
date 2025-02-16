@@ -3,9 +3,12 @@
 int main(){
     char x;
     scanf("%c",&x);
-    if(x==ABCDEFGHIJKLMNOPQRSTUVWXYZ){
-        printf("Uppercase");
-    }else if(x==abcdefghijklmnopqrstuvwxyz){
-        printf("Lowercase");
+    if(x>='A'&&x<='Z'){
+        printf("Uppercase\n");
+    }else if(x >= 'a' && x <= 'z'){
+        printf("Lowercase\n");
     }
+    else {
+        printf("Not a letter\n");
+}
 }
