@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 int main()  {
     float num;
     scanf("%f", &num);
@@ -6,4 +6,10 @@ int main()  {
     return 0;
 
     
+}*/
+#include<stdio.h>
+int main(){
+    float x;
+    scanf("%f",&x);
+    printf("You entered: %.2f\n",x);
 }
