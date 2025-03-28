@@ -14,25 +14,10 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-int main() {
-    int n;
-    
-    // Read the number of elements
-    scanf("%d", &n);
-    int arr[n];
-
-    // Read n space-separated integers
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    // Sort the array
-    bubbleSort(arr, n);
-
-    // Print sorted array
+// Function to print the array
+void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
-    
-    return 0;
+    printf("\n");
 }
