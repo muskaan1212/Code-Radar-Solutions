@@ -4,8 +4,8 @@
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
-            // Swap if the current element is greater than the next
             if (arr[j] > arr[j + 1]) {
+                // Swap elements
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -14,27 +14,25 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-// Function to print an array
-void printArray(int arr[], int size) {
-    for (int i = 0; i < size; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-}
-
-// Main function
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int n;
+    
+    // Read the number of elements
+    scanf("%d", &n);
+    int arr[n];
 
-    printf("Original array: ");
-    printArray(arr, n);
+    // Read n space-separated integers
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
 
     // Sort the array
     bubbleSort(arr, n);
 
-    printf("Sorted array: ");
-    printArray(arr, n);
-
+    // Print sorted array
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    
     return 0;
 }
