@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    char n[25];
+    char n;
     scanf("%s",&n);
     if(n == 'a' || n == 'e' || n == 'i' || n == 'o' || n == 'u' ||
         n == 'A' || n == 'E' || n == 'I' || n == 'O' || n == 'U'){
