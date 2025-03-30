@@ -7,10 +7,12 @@ int main(){
         n == 'A' || n == 'E' || n == 'I' || n == 'O' || n == 'U'){
         printf("Vowels");
 
-    }else if(){
+    }else if((n >= 'b' && n <= 'z') || (n >= 'B' && n <= 'Z')){
         printf("Consonant");
-    }else(){
+    }else if(n >= '0' && n <= '9'){
         printf("Digital");
+    }else{
+        printf("Invalid");
     }
     return 0;
     
