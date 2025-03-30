@@ -13,5 +13,6 @@ int main(){
             j=arr[i];
         }
     }
+     printf("Maximum value: %d\n", j);
     
 }
