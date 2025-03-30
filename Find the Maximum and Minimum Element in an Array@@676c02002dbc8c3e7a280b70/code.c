@@ -2,21 +2,21 @@
 
 int main() {
     int N, i;
-
-    // Read number of elements
+    
+    // Read the number of elements
     scanf("%d", &N);
-
+    
     int arr[N];
-
+    
     // Read array elements
     for (i = 0; i < N; i++) {
-        scanf("%d", &arr[i]); // Fixed indexing issue
+        scanf("%d", &arr[i]);  // Correct indexing
     }
-
-    // Initialize max and min with the first element
+    
+    // Initialize max and min
     int max = arr[0], min = arr[0];
-
-    // Find max and min values
+    
+    // Find max and min
     for (i = 1; i < N; i++) {
         if (arr[i] > max) {
             max = arr[i];
@@ -25,10 +25,9 @@ int main() {
             min = arr[i];
         }
     }
-
-    // Print results
-    printf("%d", max);
-    printf("%d", min);
-
-    return 0; // Proper program termination
+    
+    // Correct output format: min first, then max
+    printf("%d %d\n", min, max);
+    
+    return 0;
 }
