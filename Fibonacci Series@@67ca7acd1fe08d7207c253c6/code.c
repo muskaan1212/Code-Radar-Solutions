@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to calculate Fibonacci number recursively
-int fibonacci(int n) {
+void fibonacci(int n) {
     if (n <= 1)
         return n;
     return fibonacci(n - 1) + fibonacci(n - 2);
