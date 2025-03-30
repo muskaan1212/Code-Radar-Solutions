@@ -3,7 +3,8 @@
 int main(){
     char n[25];
     scanf("%s",&n);
-    if(n==aeiou){
+    if(n == 'a' || n == 'e' || n == 'i' || n == 'o' || n == 'u' ||
+        n == 'A' || n == 'E' || n == 'I' || n == 'O' || n == 'U'){
         printf("Vowels");
 
     }else if(){
