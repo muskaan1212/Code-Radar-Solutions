@@ -1,26 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int N, i, j, space;
+    int rows;
 
-    // Taking user input for number of rows
-    printf("Enter the number of rows: ");
-    if (scanf("%d", &N) != 1 || N <= 0) {  // Check for valid input
-        printf("Invalid input! Please enter a positive integer.\n");
-        return 1; // Exit with error
-    }
+   
+    scanf("%d", &rows);
 
-    // Loop for each row
-    for (i = 1; i <= N; i++) {
-        // Print spaces
-        for (space = 1; space <= N - i; space++) {
+    for (int i = 1; i <= rows; i++) {
+        for (int j = 1; j <= rows - i; j++) {
             printf(" ");
         }
-        // Print stars
-        for (j = 1; j <= (2 * i - 1); j++) {
+        for (int k = 1; k <= 2 * i - 1; k++) {
             printf("*");
         }
-        printf("\n");  // Move to next line
+        printf("\n");
     }
 
     return 0;
