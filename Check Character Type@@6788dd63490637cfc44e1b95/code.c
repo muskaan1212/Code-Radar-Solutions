@@ -3,7 +3,7 @@
 int main(){
     char n[25];
     scanf("%s",&n);
-    if(n="aeiou"){
+    if(n==aeiou){
         printf("Vowels");
 
     }else if(){
