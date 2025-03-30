@@ -23,7 +23,7 @@ int main() {
     }
 
     // Output the maximum value
-    printf("Maximum value: %d\n", j);
+    printf("%d\n", j);
 
     return 0;
 }
