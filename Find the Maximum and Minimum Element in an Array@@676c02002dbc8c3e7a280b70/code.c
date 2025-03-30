@@ -27,8 +27,8 @@ int main() {
     }
 
     // Print results
-    printf("%d\n", max);
-    printf("%d\n", min);
+    printf("%d", max);
+    printf("%d", min);
 
     return 0; // Proper program termination
 }
