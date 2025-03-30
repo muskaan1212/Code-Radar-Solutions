@@ -10,7 +10,7 @@ int main(){
     }else if((n >= 'b' && n <= 'z') || (n >= 'B' && n <= 'Z')){
         printf("Consonant");
     }else if(n >= '0' && n <= '9'){
-        printf("Digital");
+        printf("Digit");
     }else{
         printf("Invalid");
     }
