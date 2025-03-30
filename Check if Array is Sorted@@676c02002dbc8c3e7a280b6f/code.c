@@ -5,7 +5,7 @@ int main() {
     int sorted = 1; // Assume array is sorted initially
 
     // Input the size of array
-    printf("Enter the number of elements:\n");
+   
     scanf("%d", &n);
     int arr[n];
 
@@ -25,9 +25,9 @@ int main() {
 
     // Output result
     if (sorted) {
-        printf("The array is sorted in non-decreasing order.\n");
+        printf("Sorted");
     } else {
-        printf("The array is not sorted.\n");
+        printf("Not Sorted");
     }
 
     return 0;
