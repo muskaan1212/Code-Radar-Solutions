@@ -1,21 +1,34 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int N,i;
-    scanf("%d",&N);
+#include <stdio.h>
+
+int main() {
+    int N, i;
+
+    // Read number of elements
+    scanf("%d", &N);
+
     int arr[N];
-    for(i=0;i<N;i++){
-        scanf("%d",&arr[N]);
+
+    // Read array elements
+    for (i = 0; i < N; i++) {
+        scanf("%d", &arr[i]); // Fixed indexing issue
     }
-    int max=arr[0], min=arr[0];
-    for(i=1;i<N;i++){
-        if(arr[i]>max){
-            max=arr[i];
+
+    // Initialize max and min with the first element
+    int max = arr[0], min = arr[0];
+
+    // Find max and min values
+    for (i = 1; i < N; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
         }
-        if(arr[i]<min){
-            min=arr[i];
+        if (arr[i] < min) {
+            min = arr[i];
         }
     }
-    printf("%d\n",max);
-     printf("%d\n",min);
+
+    // Print results
+    printf("%d\n", max);
+    printf("%d\n", min);
+
+    return 0; // Proper program termination
 }
