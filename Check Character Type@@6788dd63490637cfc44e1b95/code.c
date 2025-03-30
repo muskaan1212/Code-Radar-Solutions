@@ -5,7 +5,7 @@ int main(){
     scanf("%s",&n);
     if(n == 'a' || n == 'e' || n == 'i' || n == 'o' || n == 'u' ||
         n == 'A' || n == 'E' || n == 'I' || n == 'O' || n == 'U'){
-        printf("Vowels");
+        printf("Vowel");
 
     }else if((n >= 'b' && n <= 'z') || (n >= 'B' && n <= 'Z')){
         printf("Consonant");
